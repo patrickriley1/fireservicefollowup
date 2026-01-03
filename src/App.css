@@ -71,6 +71,11 @@
   background-color: var(--color5);
 }
 
+.job-details-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
 .edit-message {
   display: flex;
   flex-direction: column;

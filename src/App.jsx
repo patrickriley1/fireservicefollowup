@@ -65,8 +65,12 @@ function App() {
               <p>To:{selected.recipient}</p>
               <p>Subject: Follow Up on Repair Estimate</p>
               <p className="message">Body:{selected.message}</p>
-              <button>Send</button>
-              <button onClick={handleEdit}>Edit</button>
+              <div className="job-details-buttons">
+                <button>Send</button>
+                <button onClick={handleEdit}>Edit</button>
+                <button>Skip</button>
+              </div>
+              
             </>
           ) : (
             <p>Select a job to see details</p>
