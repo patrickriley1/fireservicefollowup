@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./index.css";
-import "./app.css";
+import "./App.css";
 
 function App() {
   const [jobs, setJobs] = useState([
